@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+    <!--<form action="#">
+        <input type="text" name="pesos" id="pesos">
+        <input type="text" name="dolares" id="dolares">
+        <button id="button" onclick="convertir()">Convertir</button>
+    </form>-->
+    <section class="frmdolarespesos">
+        <h4>Punto 9-) Conversor de dólares a pesos</h4>
+        <input class="inputs" type="text" name="dolares" id="dolares" placeholder="Ingrese dolares">
+        <input class="inputs" type="text" name="pesos" id="pesos" placeholder="Importe en pesos">
+        <button class="botones" id="buttonDP" onclick="convertir()">Convertir</button>    
+    </section>
+    <section class="frmpesosdolares">
+        <h4>Punto 10-) Conversor de pesos a dólares</h4>
+        <input class="inputs" type="text" name="pesos" id="pesos2" placeholder="Ingrese pesos">
+        <input class="inputs" type="text" name="dolares" id="dolares2" placeholder="Importe en dólares">
+        <button class="botones" id="buttonPD" onclick="convertir2()">Convertir</button>
+    </section>
+    <section class="frmconversorgrados">
+        <h4>Punto 11-) Conversor de temperatura</h4>
+        <input class="inputs" type="text" id="gradoscelsius" placeholder="Ingrese grados C°">
+        <input class="inputs" type="text" id="gradosfarenheit" placeholder="Valor en grados F°">
+        <button class="botones" id="buttongrados" onclick="convertirgrados()">Convertir</button>
+    </section>
+    <section class="frmencargocaja">
+        <h4>Punto 12-) Encargo de cajas</h4>
+        <label for="">Nombre del cliente</label><br>
+        <input class="inputs" type="text" id="nombrecliente" placeholder="Ingrese nombre cliente"><br>
+        <label for="">Material de la caja</label>
+        <select name="" id="listamateriales">
+            <option value="madera">Madera</option>
+            <option value="plástico">Plástico</option>
+            <option value="aluminio">Aluminio</option>
+        </select> <br> <br>
+        <label for="">Seleccione dimensiones para la caja</label> <br>
+        <input type="radio" name="material" value="diminuta" id="diminuta"> Diminuta <br>
+        <input type="radio" name="material" value="mediana" id="mediana"> Mediana <br>
+        <input type="radio" name="material" value="grande" id="grande"> Grande <br>
+        <label for="">Comentarios</label><br>
+        <textarea name="Comentarios" id="comentarios" cols="24" rows="2"></textarea> <br>
+        <button id="cargacomentarios" onclick="cargacomentarios()">Enviar</button>
+        <input class="inputs" type="text" id="textocomentarios" placeholder="Orden final" size="50">
+    </section>
+    <section class="juegonum">
+        <h4>Punto 13-) Juego número secreto</h4>
+        <label for="">Ingrese numero para intentar adivinar el número secreto. Tiene 3 intentos, suerte!</label>
+        <input class="inputs" type="text" id="numintento" placeholder="Ingrese número">
+        <button class="botones" id="probar" onclick="juego()">Ingresar</button>
+        <label for="" id="cantintentos">Intentos : 0</label> <br>
+        <label for="">Resultado --&gt; </label>
+        <textarea name="resultado" id="resultado" cols="24" rows="3"></textarea>
+    </section>
+    <section class="frmpersonas">
+        <h4>Punto 14-) Creador de lista de personas</h4>
+        <input class="inputs" type="text" name="persona" id="persona">
+        <button class="botones" id="agregar" onclick="agregar()">Agregar</button>
+        <ul id="personas">
+        </ul>
+    </section>
+   <script src="app.js"></script> 
+
+</body>
+    <script src="prueba.js"></script>
+</body>
+</html>

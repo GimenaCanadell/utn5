@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frmdolarespesos, .frmpesosdolares, .frmconversorgrados, .frmencargocaja, .frmpersonas, .juegonum {
+    width: 500px;
+    background-color:aquamarine;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10 px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'calibri'
+}
+
+#resultado {
+    margin-top: 10px;
+}
+
+.frmdolarespesos h4{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.frmpesosdolares h4{
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.inputs {
+    width: 80%;
+    margin-bottom: 4px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid cornflowerblue;
+}
+
+.botones {
+    width: 80%;
+    padding: 10px;
+}
